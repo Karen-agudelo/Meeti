@@ -1,0 +1,24 @@
+{
+  "name": "03-meeti",
+  "version": "1.0.0",
+  "description": "Bootstrap 5 y Sass",
+  "main": "index.js",
+  "scripts": {
+    "compilar:sass": "sass --watch src/scss:build/css",
+    "build:sass":"purgecss --css build/css/style.css --content index.html --output build/css/meeti.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karen-agudelo/Meeti.git"
+  },
+  "author": "Karen Agudelo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karen-agudelo/Meeti/issues"
+  },
+  "homepage": "https://github.com/Karen-agudelo/Meeti#readme",
+  "devDependencies": {
+    "bootstrap": "^5.2.0",
+    "sass": "^1.54.5"
+  }
+}
